@@ -1,0 +1,13 @@
+{
+  "name": "nice-type",
+  "version": "1.0.0",
+  "description": "A showcase of my favorite Google fonts",
+  "author": "Arturo Alviar",
+  "license": "ISC",
+  "dependencies": {
+    "gulp": "^3.9.0",
+    "gulp-jade": "^1.1.0",
+    "gulp-minify-css": "^1.2.1",
+    "gulp-stylus": "^2.2.0"
+  }
+}
