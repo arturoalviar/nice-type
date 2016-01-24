@@ -20,7 +20,7 @@ gulp.task('stylus', function(){
 });
 
 gulp.task('minify', ['stylus'] , function(){
-  return gulp.src('.build/css/main.css')
+  return gulp.src('./build/css/main.css')
     .pipe(minify())
     .pipe(gulp.dest('./build/css'));
 });
